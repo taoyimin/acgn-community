@@ -1,5 +1,5 @@
 预览图：<br>
-![](https://github.com/taoyimin/ACGN/raw/master/pic/pic1.peg)
+![](https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic3.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic4.png)
