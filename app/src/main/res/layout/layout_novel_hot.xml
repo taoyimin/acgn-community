@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/novel_image_hot"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/icon_novel_tuijian"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="热门推荐"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/novel_image_hot"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多 >"
+            android:textSize="11sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/newsSummaryText"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hot1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hot1_card"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardCornerRadius="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp">
+
+                <ImageView
+                    android:id="@+id/hot1_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/pic10"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/hot1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="小林家的龙女仆"
+                android:textSize="13sp"
+                android:textColor="#727171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hot2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackgroundBorderless">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hot2_card"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardCornerRadius="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp">
+
+                <ImageView
+                    android:id="@+id/hot2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/pic10"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/hot2_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="风夏"
+                android:textSize="13sp"
+                android:textColor="#727171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hot3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackgroundBorderless">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hot3_card"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardCornerRadius="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp">
+
+                <ImageView
+                    android:id="@+id/hot3_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/pic10"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/hot3_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="锁链战机 赫克瑟塔斯之光"
+                android:textSize="13sp"
+                android:textColor="#727171"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hot4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackgroundBorderless">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hot4_card"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp">
+
+                <ImageView
+                    android:id="@+id/hot4_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/pic10"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/hot4_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="锁链战机 赫克瑟塔斯之光"
+                android:textSize="13sp"
+                android:textColor="#727171"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hot5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackgroundBorderless">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/hot5_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+
+                    <ImageView
+                        android:id="@+id/hot5_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/pic"/>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/hot5_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="锁链战机 赫克瑟塔斯之光"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="13sp"
+                    android:textColor="#727171"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/hot6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:background="?android:attr/selectableItemBackgroundBorderless">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/hot6_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+
+                    <ImageView
+                        android:id="@+id/hot6_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/pic"/>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/hot6_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="锁链战机 赫克瑟塔斯之光"
+                    android:textSize="13sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="#727171"/>
+            </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

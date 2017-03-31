@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--一张图片的布局-->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/cardMarginVertical"
+    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+    android:layout_marginRight="@dimen/cardMarginHorizontal"
+    android:layout_marginTop="@dimen/cardMarginVertical"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    android:stateListAnimator="@drawable/button_pressed_selector"
+    android:id="@+id/card_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingBottom="9dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="7dp">
+        <!--左边图片占6/16-->
+            <ImageView
+                android:id="@+id/news_image"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:layout_marginTop="3dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/pic"/>
+        <!--右边占10/16,主要包含标题,时间,浏览数,点赞数-->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="10"
+            android:minHeight="90dp">
+            <!--新闻title-->
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="山豆山撒大苏打实打实大苏打上打算打算东"
+                android:textColor="@color/newsTitleText"
+                android:textSize="@dimen/news_title_text_size"
+                android:typeface="monospace"/>
+            <!--摘要-->
+            <TextView
+                android:id="@+id/news_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/news_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:text="实打沙撒大苏打实打实大苏打sadasasd飒飒大苏打实"
+                android:textColor="@color/newsSummaryText"
+                android:textSize="@dimen/news_summary_text_size"
+                android:typeface="monospace"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_time_browse_praise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/news_summary">
+
+                <include layout="@layout/layout_news_bottom"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

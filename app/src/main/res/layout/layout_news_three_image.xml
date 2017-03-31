@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--三张图片的布局-->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/cardMarginVertical"
+    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+    android:layout_marginRight="@dimen/cardMarginHorizontal"
+    android:layout_marginTop="@dimen/cardMarginVertical"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    android:stateListAnimator="@drawable/button_pressed_selector"
+    android:id="@+id/card_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="7dp">
+
+        <TextView
+            android:id="@id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/news_title_text_size"
+            android:textColor="@color/newsTitleText"
+            android:typeface="monospace"
+            android:text="发豆腐干山豆根山豆根改好发给傻啥"/>
+
+        <TextView
+            android:id="@+id/news_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="撒大苏打实打撒大苏打实打实大苏打实打实的啊实打实打算萨达实大苏打撒大苏打"
+            android:textColor="@color/newsSummaryText"
+            android:textSize="@dimen/news_summary_text_size"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/news_image_left"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/pic"
+                android:layout_marginRight="2.5dp"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/news_image_middle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/pic"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/news_image_right"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/pic"
+                android:layout_marginLeft="2.5dp"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <!--新闻时间,浏览数,点赞数模块-->
+        <include layout="@layout/layout_news_bottom"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

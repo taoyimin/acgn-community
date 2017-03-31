@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNews">#00bcd4</color>
+    <color name="colorMusic">#ffc107</color>
+    <color name="colorAnime">#ff4081</color>
+    <color name="colorNovel">#00AF8B</color>
+    <color name="newsTitleText">#444444</color>
+    <color name="newsSummaryText">#ADADAD</color>
+    <color name="newsTimeText">#ADADAD</color>
+    <color name="newsBrowseText">#ADADAD</color>
+    <color name="newsCommentText">#ADADAD</color>
+    <color name="newsDividers">#DBD8D8</color>
+</resources>

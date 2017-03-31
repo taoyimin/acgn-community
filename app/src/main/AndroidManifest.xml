@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.taozi.twodimension">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/TwoDimension"
+        android:name=".MyApplication">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".modules.news.activity.NewsDetailActivity"/>
+        <activity android:name=".modules.animation.activity.AnimationDetailActivity"/>
+        <activity android:name=".modules.music.activity.SonglistDetailActivity"/>
+        <activity android:name=".modules.novel.activity.NovelDetailActivity"/>
+        <meta-data android:name="com.taozi.twodimension.util.GlideModuleConfig"
+                   android:value="GlideModule"/>
+    </application>
+
+</manifest>
