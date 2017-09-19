@@ -1,8 +1,8 @@
 预览图：<br>
 <div align="center">
-<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="480"/>
+<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="320"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png" width="480"/>
+<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png" width="320"/>
 </div>
 <br>
 <div align="center">
