@@ -1,5 +1,5 @@
 预览图：<br>
-<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="480" align="center"/><img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png" width="480" align="center"/>
+<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="300" align="center"/><img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png" width="300" align="center"/>
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic3.png)
