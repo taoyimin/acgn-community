@@ -1,5 +1,6 @@
 预览图：<br>
-![](https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png =200x)
+<img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="120" height="120" align="center"/>
+![](https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic2.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic3.png)
 ![](https://github.com/taoyimin/ACGN/raw/master/pic/pic4.png)
