@@ -1,4 +1,4 @@
-预览图：<br>
+<br>
 <div align="center">
 <img src="https://github.com/taoyimin/ACGN/raw/master/pic/pic1.png" width="320"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
